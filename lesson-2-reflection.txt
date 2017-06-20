@@ -14,10 +14,17 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	每次邏輯更改時都要git commit
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	1.新增實驗版或新語言時
+	2.使用分支不會影響主線(master)的內容
+
 How do the diagrams help you visualize the branch structure?
+
+	能直觀地看出前後順序
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
