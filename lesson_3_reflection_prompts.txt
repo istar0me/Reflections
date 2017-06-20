@@ -1,17 +1,27 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    When I want to collaborate with someone else, it would be a great method.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Because if it pull automatically, I can recognize what the differences between the two versions.
+	So I prefer to update manually to ensure all changes are logic-based.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    forks:
+		說明：等同於先clone到本機端，再push到remote repository上，但這個步驟由GitHub伺服器代勞
+		註：fork此詞由GitHub發明，因此專指GitHub內從事的行為，本機端的操作並不包含在此範疇
+		時機：有好的open-source專案，但有些地方不符合自己的胃口，因此想做些更改
+	clones:
+		說明：複製Remote repository到本機端，或從本機端複製一份副本到本機端
+		時機：想研究別人的代碼時(?)
+	branches:
+		說明：在主線上新增支線，避免更動主線的檔案
+		時機：適合用於添加一些新功能(如支援新的語言)等
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
